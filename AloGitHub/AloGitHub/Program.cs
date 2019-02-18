@@ -4,14 +4,13 @@ namespace AloGitHub
 {
 	class Program
 	{
-		static void Main(string[] args)
-		{
-			NewMethod();
-		}
-
-		private static void NewMethod()
+		static void EscreveNatela()
 		{
 			Console.WriteLine("Primeiro Teste com GitHub!");
+		}
+		static void Main(string[] args)
+		{
+			EscreveNatela();
 			Console.ReadKey();
 		}
 	}
