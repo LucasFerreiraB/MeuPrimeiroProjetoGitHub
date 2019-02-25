@@ -4,19 +4,19 @@ namespace AloGitHub
 {
 	class Program
 	{
-		static void EscreveNatela(String.txt)
+		static void EscreveNatela3(String txt)
 		{
-			Console.WriteLine(txt);
+            EscreveNatela(txt);
 		}
 
-		static void EscreveNatela2(String.txt)
+		static void EscreveNatela(String txt)
 		{
-			EscrevaNaTela(txt);
+            Console.WriteLine(txt);
 
 		}
-        static void EscreveNatela3(String.txt)
+        static void EscreveNatela2(String txt)
         {
-            EscrevaNaTela2(txt);
+            EscreveNatela(txt);
 
         }
         static void Main(string[] args)
