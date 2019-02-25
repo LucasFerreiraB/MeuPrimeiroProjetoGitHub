@@ -14,7 +14,12 @@ namespace AloGitHub
 			EscrevaNaTela(txt);
 
 		}
-		static void Main(string[] args)
+        static void EscreveNatela3(String.txt)
+        {
+            EscrevaNaTela2(txt);
+
+        }
+        static void Main(string[] args)
 		{
 			EscreveNatela("Primeiro teste com GitHub");
 			Console.ReadKey();
